@@ -1,0 +1,46 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  
+}
+.parent div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.background {
+  background-color: rgba(63, 215, 49, 0.534);
+  text-align: center;
+  width: 40px;
+  border-radius: 50%;
+}
+.parent p {
+  font-size: large;
+  font-weight: 900;
+  color: rgb(107, 107, 107);
+}
+.bigparent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  flex-direction: column;
+}
+.button{
+  background: none;
+  padding: 0;
+  font: bold;
+  cursor: pointer;
+  outline: inherit;
+  width: 90px;
+  height: 50px;
+  background-color: rgba(109, 109, 108, 0.38);
+  font-size: large;
+  margin-top: 50px;
+}
